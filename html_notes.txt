@@ -10,3 +10,8 @@ index.html - just a file given to a Browser, the Browser then
     renders (displays) the page to the user's screen
 
 HTML - requires opening/closing  tags aka elements e.g. <p> </p>
+
+id tag - attribute of an element that uniquely identifies it
+class tag - attribute of an element that holds a classification for multilple elements
+                (groups of the same elements)
+id, class tags - used for CSS & JS, not much for HTML itself
