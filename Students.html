@@ -4,6 +4,31 @@
     <title> Students HTML Webpage</title>
 </head>
 <body>
+    <form action="/api-endpoint-string" method="GET" >
+        <h3>Student Registration</h3>
+        Enter Full Name: <input type="text" placeholder="enter full name here" required >
+        <br>
+        Tell me about yourself: <textarea></textarea> 
+        <br>
+        Enter Email: <input type="email" placeholder="enter email here"  required >
+        <br>
+        Are you hispanic or latino? <select name="type" id="hispanic_or_latino">
+            <option value="Yes">Yes</option> 
+            <!-- text is display, value is sent to the server-->
+            <option value="No">No</option>
+            <option value="Maybe">Maybe</option>
+        </select>
+        <br>
+        How old are you? <input type="number" placeholder="enter your age here" required >
+        <br>
+        Enter your password here: <input type="password" required>
+        <br>
+        Confirm password here: <input type="password" required>
+        <br>
+        <button>Submit</button>
+        <br>
+        <a href="https://www.google.com" target="_self" >Redirecting to verify you are who you say you are!</a>
+    </form>
 <table id="students">
 <tr>
     <th class="student-data"> ID </th>

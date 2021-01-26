@@ -2,6 +2,10 @@ HTML = Hypertext Markup Language
     #1 thing to know...HTML is NOT a programming language
         it is a Markup Language
 
+What does Hypertext mean?
+    text that connects two webpages together e.g. hrefs in anchor text
+                                                    hyper references 
+
 Think of a teacher "marking up a paper" for grading
 You don't execute markup language files but you provide the file to an application
     (e.g. Browser like Chrome, FireFox, IE,etc ) that can read it
