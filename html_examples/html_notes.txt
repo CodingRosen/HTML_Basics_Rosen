@@ -1,0 +1,21 @@
+HTML = Hypertext Markup Language
+    #1 thing to know...HTML is NOT a programming language
+        it is a Markup Language
+
+What does Hypertext mean?
+    text that connects two webpages together e.g. hrefs in anchor text
+                                                    hyper references 
+
+Think of a teacher "marking up a paper" for grading
+You don't execute markup language files but you provide the file to an application
+    (e.g. Browser like Chrome, FireFox, IE,etc ) that can read it
+
+index.html - just a file given to a Browser, the Browser then 
+    renders (displays) the page to the user's screen
+
+HTML - requires opening/closing  tags aka elements e.g. <p> </p>
+
+id tag - attribute of an element that uniquely identifies it
+class tag - attribute of an element that holds a classification for multilple elements
+                (groups of the same elements)
+id, class tags - used for CSS & JS, not much for HTML itself
