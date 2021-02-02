@@ -33,15 +33,15 @@ function mouseLeavePage() {
 }
 
 
-var myBooleanValue = true;
+var colorFlag = true;
 function mouseLeaving() {
     // Print the word Blue or Red every mouseleave
     if (myBooleanValue == true) {
         console.log("Red");
-        myBooleanValue = false;
+        colorFlag = false;
     } else {
         console.log("Blue");
-        myBooleanValue = true;
+        colorFlag = true;
     }
 }
 
