@@ -1,0 +1,42 @@
+<html>
+
+<head>
+    <title>JS Calculator Practice!</title>
+    <script src="calculator.js"></script>
+    <script src="service.js"></script>
+    <script src="view.js"></script>
+    <script src="read.js"></script>
+</head>
+
+<body>
+    <h1>Testing JS Calculator</h1>
+    <!-- Take 2 inputs from the user -->
+    <!-- User selects whether they want to +, -, /, * -->
+    <!-- Have a "Calculate" Button -->
+    <!-- Display results to user -->
+    <!--<form>-->
+    <div>
+        Enter calculation type:
+        <select name="type" id="calculationType">
+            <option value="addition">+</option>
+            <!-- text is display, value is sent to the server-->
+            <option value="subtraction">-</option>
+            <option value="division">/</option>
+            <option value="multiplication">*</option>
+        </select>
+        <br>
+        Enter numeric value 1:
+        <input id="value1" type="number">
+        <br>
+        Enter numeric value 2:
+        <input id="value2" type="number">
+        <br>
+        Result: <span id="resultTag">...</span>
+        <br>
+        <button id="submitBtn">Calculate</button>
+        <br>
+    </div>
+    <!--</form>-->
+</body>
+
+</html>
